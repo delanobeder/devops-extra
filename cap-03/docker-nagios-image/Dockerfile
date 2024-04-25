@@ -2,7 +2,7 @@ FROM jasonrivers/nagios:latest
 
 LABEL maintainer="auri@ufscar.br, g4briel.4lves@gmail.com"
 
-ENV NAGIOS_TIMEZONE="america/sao_paulo"
+ENV NAGIOS_TIMEZONE="America/Sao_Paulo"
 
 RUN apt update
 RUN apt install -y vim nano postfix mailutils libsasl2-2 ca-certificates libsasl2-modules
