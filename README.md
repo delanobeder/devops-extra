@@ -1,4 +1,4 @@
-# Materiao extra do Livro Prática de DevOps com Docker
+# Material extra do Livro Prática de DevOps com Docker
 
 Olá, neste repositório encontram-se os materiais extras utilizados no livro de Prática de DevOps com Docker visando faciliar a execução das atividades.
 
