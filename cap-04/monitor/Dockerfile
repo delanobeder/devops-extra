@@ -1,4 +1,4 @@
-FROM jasonrivers/nagios:latest
+FROM jasonrivers/nagios:4.4.8
 
 LABEL maintainer="auri@ufscar.br, g4briel.4lves@gmail.com"
 

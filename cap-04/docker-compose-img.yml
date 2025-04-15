@@ -6,11 +6,10 @@
 # Para inicializar os contêiners utilizando este aquivo, estando no 
 # diretório no qual este arquivo se localiza, basta executar:
 #
-# docker-compose -f docker-compose-img.yml up
+# docker compose -f docker-compose-img.yml up
 #
 ########################################################################
 
-version: "3.3"
 services:
   db:
     image: aurimrv/mysql-server-img

@@ -5,10 +5,12 @@
 # Para inicializar os contêiners utilizando este aquivo, estando no 
 # diretório no qual este arquivo se localiza, basta executar:
 #
-# docker-compose up
+# docker compose up --build (o --build caso queira construir as imagens)
+# 
+# docker compose build <container> (se deseja build imagem especifica)
+# docker compose up
 #
 ########################################################################
-version: "3.3"
 services:
   db:
     build: ./db
